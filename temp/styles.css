@@ -1,0 +1,43 @@
+.block{
+display:block;
+background-color: blueviolet;
+padding: 10%;
+width: 40vw;
+position: absolute;
+left: 20%;
+top: 5%;
+border-style: dotted;
+}
+
+.input select{
+    background-color: green;
+    padding: 3%;
+    
+}
+.input{
+    position: relative;
+    left: 25%;
+    
+}
+
+input{
+    padding: 3%;
+
+}
+
+.io{
+    margin: 2%;
+    position: relative;
+    left: 17%;
+}
+
+button{
+    position: relative;
+    left: 45%;
+    padding: 1%;
+}
+
+h2{
+    text-decoration: underline;
+    margin-bottom: 10%;
+}

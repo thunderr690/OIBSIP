@@ -1,0 +1,210 @@
+body {
+    background-color: rgb(5, 5, 77);
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(3, 3, 65);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(154, 154, 223);
+    font-size: 1.04rem;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.LeftSection {
+    font-size: 3rem;
+    margin: 10%;
+}
+
+.LeftSection p {
+    font-size: 1rem;
+    margin: 10%;
+}
+
+.LeftSection .buttons {
+    padding: 50px 0;
+}
+
+.LeftSection .btn {
+    padding: 12px;
+    background: #1e2167;
+    color: white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.RightSection img {
+    width: 60%;
+    margin: 30% 0;
+    border-radius: 50%;
+}
+
+.red {
+    color: rgb(118, 118, 228);
+}
+
+.text-gray {
+    color: gray;
+}
+
+#element {
+    color: rgb(118, 118, 228);
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondsection h2 {
+    font-size: 1.9rem;
+}
+
+.secondsection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondsection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+.image-top {
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 14px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+}
+
+footer {
+    background-color: #0e0e1a;
+    height: 100px;
+}
+
+
+
+.footer>div {
+    width: 223px;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+
+.container {
+    display: inline-flex;
+    width: 100%;
+}
+
+.card {
+
+    min-width: 29%;
+    border: 2px solid rgb(72, 72, 194);
+    margin: 2%;
+}
+
+.card-text {
+    margin: 2%;
+    padding: 2%;
+}
+
+.cardimg img {
+    max-height: 25vh;
+    width: 100%;
+}
+
+.moreinfo h3 {
+    margin-left: 43vw;
+    padding-top: 6vh;
+    padding-bottom: 2vh;
+}
+
+.info1 img {
+
+    width: 12vw;
+    margin-left: 32vw;
+    padding: 20px;
+}
+
+.info2 img {
+    width: 10vw;
+    margin-left: 0vw;
+
+}
+
+.infoall ul {
+    display: inline-flex;
+
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+.about {
+    margin: 10% 4%;
+    font-size: 1.5rem;
+}

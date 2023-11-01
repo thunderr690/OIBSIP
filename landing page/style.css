@@ -1,0 +1,59 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("back.png");
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar1 {
+    display: inline-flex;
+    width: 100%;
+    direction: ltr;
+
+
+}
+
+.navbar1 a {
+
+    color: black;
+    text-decoration: none;
+    background-color: #f2e8c643;
+    border-radius: 5%;
+    padding: 5px;
+    font-stretch: narrower;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+ul, li {
+    margin-left: 5%;
+    margin-top: 1%;
+    list-style: none;
+    display: inline;
+}
+
+.image {
+    height: 50vh;
+    width: 35vh;
+}
+
+.footer {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    width: 70%;
+    margin-left: 16%;
+    font-size: 60%;
+}
+
+.contant{
+    position: relative;
+    margin-top: 25%;
+}
