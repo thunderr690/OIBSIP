@@ -16,8 +16,6 @@ body {
     display: inline-flex;
     width: 100%;
     direction: ltr;
-
-
 }
 
 .navbar1 a {
@@ -53,7 +51,8 @@ ul, li {
     font-size: 60%;
 }
 
-.contant{
+.content {
     position: relative;
     margin-top: 25%;
+    color: white;
 }
